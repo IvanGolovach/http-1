@@ -11,7 +11,7 @@ public class Server10 {
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(81);
         while (true) {
-            System.out.println("wait ...");
+            System.out.println("wait ......");
             Socket socket = serverSocket.accept();
             System.out.println("get one!");
             try (InputStream in = socket.getInputStream();
